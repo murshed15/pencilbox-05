@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-commerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">E-commerce</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="product-detail.html">Product Detail</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="container mt-4">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Products</li>
+            </ol>
+        </nav>
+
+        <div class="row">
+            <!-- Categories (Accordion) -->
+            <div class="col-md-3">
+                <h4>Categories</h4>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">
+                                    Category 1
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show">
+                            <div class="card-body">
+                                Category 1 products...
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for more categories -->
+                </div>
+            </div>
+
+            <!-- Products Row -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- Product Card -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/01.avif" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 1</h5>
+                                <p class="card-text">$100</p>
+                                <a href="product-detail.html" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/002.webp" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 2</h5>
+                                <p class="card-text">$100</p>
+                                <a href="product-detail.html" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/001.webp" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 3</h5>
+                                <p class="card-text">$100</p>
+                                <a href="product-detail.html" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for more products -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-4 bg-dark text-light">
+            <p>&copy; 2024 E-commerce Store</p>
+            <p id="dateTime"></p> <!-- Display Date & Time here -->
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

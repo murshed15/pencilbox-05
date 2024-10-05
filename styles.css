@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.carousel-inner img {
+    height: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    width: 100%;
+}
+#bannerss{
+    background-image: url(images/banner.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#navber{
+    margin-top: 20px;
+}
+.gapppp{
+    margin-top: 20px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - E-commerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="container">
+        <div class="row justify-content-between py-3">
+            <div class="col imagess">
+                <a class="navbar-brand" href="index.html">E-commerce</a>
+            </div>
+            <div class="col text-right">
+                <a href="#">My Account</a> | <a href="#">Wishlist</a> | <a href="login.html">Login</a> | <a href="signup.html">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="container text-center">
+        <input type="text" class="form-control" placeholder="Search Products">
+        <button class="btn btn-primary mt-2">Search</button>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav id="navber" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">E-commerce</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product-detail.html">Product Detail</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Banner -->
+    <section id="bannerss" class="bg-dark text-light text-center p-5">
+        <div class="container" style="max-width: 1250px; padding-top: 150px; padding-bottom: 150px;">
+            <h1>Welcome to Our Band</h1>
+            <p>Creating soulful music for everyone!</p>
+        </div>
+    </section>
+
+    <!-- Product Rows -->
+    <div class="container mt-4">
+        <h2>Best Sellers</h2>
+        <div class="row">
+            <!-- Product Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/01.avif" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$100</p>
+                        <a href="product-detail.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/02.avif" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$100</p>
+                        <a href="product-detail.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/03.avif" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">$100</p>
+                        <a href="product-detail.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more products -->
+        </div>
+
+        <h2>New Products</h2>
+        <div class="row">
+            <!-- Product Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/istockphoto-1287186681-612x612.webp" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$120</p>
+                        <a href="product-detail.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/002.webp" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$120</p>
+                        <a href="product-detail.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/001.webp" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">$120</p>
+                        <a href="product-detail.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more products -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4 bg-dark text-light">
+        <p>&copy; 2024 E-commerce Store</p>
+        <p id="dateTime"></p> <!-- Display Date & Time here -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
